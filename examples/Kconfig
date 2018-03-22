@@ -1,0 +1,12 @@
+
+choice
+	prompt "Boe"
+	default FOO
+
+config FOO
+	bool "Foo"
+
+config BAR
+	bool "Bar"
+
+endchoice
